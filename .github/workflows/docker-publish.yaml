@@ -23,7 +23,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./site1
+          context: ./
           push: true
           tags: docker.io/twoseven1408/site1-app:latest
 
